@@ -1,6 +1,4 @@
 .quiz {
-
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -63,36 +61,14 @@
 
 }
 
-
 .answer-section button:hover {
   background-color: lightgoldenrodyellow;
 }
 
-.score-section {
-  margin-bottom: 30px;
-  color: #000;
-  text-align: center;
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  
-}
 
 
 
-.restart-button {
-  font-size: 18px;
-  padding: 10px;
-  margin: 10px;
-  background-color: #FFFFFF;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
-.restart-button:hover {
-  background-color: #E6E6E6;
-}
 
 
 
