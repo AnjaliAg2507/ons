@@ -1,0 +1,46 @@
+
+.StartScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width:100vh;
+}
+.StartScreen h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #000;
+}
+
+.StartScreen p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #000;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  padding: 1rem 2rem;
+  margin-bottom: 10px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+  font-size: 2rem;
+  background-color: darksalmon;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightsalmon;
+}
