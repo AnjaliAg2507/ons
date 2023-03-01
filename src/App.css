@@ -1,21 +1,83 @@
+/*.start-screen-background {
+  background-color: #f5f5f5;
+}
+
+.quiz-background {
+  background-image: url('./images/b1.gif');
+  background-size: cover;
+}
+
+
+
 .App {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('./images/b1.png');
+  background-image: url('./images/b1.gif');
   background-size: cover;
+  background-color: white;
   height: 100vh;
   left:0;
-bottom:0;
-right:0;
-top:0;
+  bottom:0;
+  right:0;
+  top:0;
   background-position: center;
- 
+  animation: animatedBackground 5s linear infinite;
+  animation-fill-mode: forwards;
 }
-body 
-{
-background-color: #eec4c9;
+
+@keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}*/
+
+.start-screen-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./images/home.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+.quiz-background {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./images/b1.gif');
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: animatedBackground 5s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-position: center;
+  animation: animatedBackground 5s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+
 
 
 

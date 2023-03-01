@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import _ from 'lodash';
 import { Link } from 'react-router-dom'
 import './Quiz.css';
+
 import Score from './Score';
 import {quizData} from './quizData';
 
