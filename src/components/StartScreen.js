@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './StartScreen.css';
-import '../App.css';
 import Quiz from './Quiz';
 
 function StartScreen() {

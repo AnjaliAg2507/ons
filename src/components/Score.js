@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Score.css';
@@ -17,3 +18,11 @@ const Score = ({ score, totalQuestions, restartQuiz }) => {
 };
 
 export default Score;
+
+
+
+
+
+
+
+
