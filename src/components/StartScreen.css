@@ -9,6 +9,7 @@
 
 }
 .StartScreen h1 {
+  font-family: 'Fascinate Inline';
   font-size: 4rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -16,6 +17,7 @@
 }
 
 .StartScreen p {
+  font-family: 'Fascinate Inline';
   font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -38,10 +40,12 @@ button {
   background-color: darksalmon;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 200px;
   cursor: pointer;
+  font-family: 'Fascinate Inline';
 }
 
 button:hover {
+  transform: scale(1.2);
   background-color: lightsalmon;
 }
