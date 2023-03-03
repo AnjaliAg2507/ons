@@ -1,5 +1,4 @@
 
-
 .score-section {
   display:flex;
   flex-direction:column;
@@ -50,6 +49,18 @@ button {
 button:hover {
   background-color: lightsalmon;
 }
+
+#my-gif {
+  position: absolute;
+  top: 30%;
+  margin-bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 200px;
+  height: 180px;
+}
+
 
 
 

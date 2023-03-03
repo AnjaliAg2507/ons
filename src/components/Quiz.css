@@ -7,35 +7,29 @@
   padding: 40 %;
   height:100 vh;
 }
-
-
 .question-section {
   background: darksalmon;
   padding: 20 px;
-  border-radius: 10px;
+  border-radius: 40px;
   text-align: center;
-  font-size: 30px;
+  font-family: 'Fascinate Inline';
+  font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #000;
-  max-width: 1080px;
-  width: 100%;
-  height:200 px;
-}
-
+  width: 130vh;
+  height:100 vh;
+  }
 .question-count {
   margin-bottom: 10px;
   color: #000;
 }
-
 .question-text {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #000;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: bold;
-  margin-bottom: 20px;
 }
-
 .answer-section {
   display: flex;
   flex-direction: column;
@@ -55,18 +49,15 @@
   border: none;
   outline: none;
   width: 450px;
-
   height: 100px;
-  
   color: #000;
   cursor: pointer;
   border-radius: 10px;
-  /*box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);*/
   padding: 0px;
   font-size: 40px;
   font-weight: bold;
+  font-family: 'Fascinate Inline';
   text-align: center;
-
 }
 
 .answer-section button:hover {

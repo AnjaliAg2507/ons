@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import _ from 'lodash';
 import { Link } from 'react-router-dom'
@@ -14,6 +15,8 @@ const Quiz = () => {
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
 
+ 
+
   const handleAnswerOptionClick = (isCorrect) => {
     if (isCorrect) {
       setScore(score + 1);
@@ -26,6 +29,7 @@ const Quiz = () => {
       setShowScore(true);
     }
   };
+
 
   const restartQuiz = () => {
     setQuestions(_.shuffle(quizData));
