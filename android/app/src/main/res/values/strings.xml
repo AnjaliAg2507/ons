@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ons</string>
+    <string name="title_activity_main">ons</string>
+    <string name="package_name">io.ionic.ons</string>
+    <string name="custom_url_scheme">io.ionic.ons</string>
+</resources>
