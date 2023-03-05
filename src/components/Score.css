@@ -6,26 +6,33 @@
   text-align: center;
   margin:0 auto;
   margin-top: 20px;
-  padding: 25 %;
+  padding:10%;
+  border-radius: 20px;
   background-color: #C1E1C1;
-  border-radius: 10px;
-  height:70vh;
-  width:60vh;
+  height: 45rem; 
+  width: 30rem;
+
   
 }
-
-
-
+#my-gif {
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 10rem;
+  height: 10rem;
+}
 .score-section h2 {
-
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 10px;
+  margin-top: 5rem;
+font-size: 2.25rem;
+font-weight: bold;
+margin-bottom: 0.625rem;
 }
 
 .score-section p {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 .button-container {
@@ -33,32 +40,24 @@
   flex-direction: row;
   justify-content: center;
 }
+
 button {
   background-color: lightcoral;
   color: white;
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px ÷ 16px */
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem; /* 10px ÷ 16px, 20px ÷ 16px */
   border: none;
-  border-radius: 5px;
+  border-radius: 0.3125rem; /* 5px ÷ 16px */
   cursor: pointer;
- 
- 
 }
+
 button:hover {
   background-color: lightsalmon;
 }
 
-#my-gif {
-  position: absolute;
-  top: 30%;
-  margin-bottom: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  width: 200px;
-  height: 180px;
-}
+
+
 
 
 

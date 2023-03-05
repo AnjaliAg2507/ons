@@ -3,13 +3,13 @@
   align-items: center;
   justify-content: center;
   background-image: url('./images/home.jpg');
-  background-size: 105% 105%;
+  background-size: 103% 103%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .quiz-background {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,12 +30,11 @@
   }
 }
 
-body 
-{
+body {
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   background-position: center;
-  
+  overflow-y: auto;
 }
 
 

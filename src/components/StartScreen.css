@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  width:100vh;
+  max-width:100%;
 
 }
 .StartScreen h1 {
@@ -30,19 +30,21 @@
 }
 
 button {
+
   padding: 1rem 2rem;
-  margin-bottom: 10px;
-  margin-left:20px;
-  margin-right:20px;
-  margin-top:20px;
+  margin-bottom: 1.25rem; 
+  margin-left: 1.25rem; 
+  margin-right: 1.25rem; 
+  margin-top: 1.25rem; 
   font-size: 2rem;
   background-color: darksalmon;
   color: white;
   border: none;
-  border-radius: 200px;
+  border-radius: 12.5rem; 
   cursor: pointer;
   font-family: 'Fascinate Inline';
 }
+
 
 button:hover {
   transform: scale(1.2);
