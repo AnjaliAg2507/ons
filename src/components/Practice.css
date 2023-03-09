@@ -6,6 +6,7 @@
   margin: 0 auto;
   padding: 10% 0%;
   height: 100vh;
+  line-height: 2.2rem;
 }
 
 .practice-question-section {
@@ -14,13 +15,15 @@
   border-radius: 2.5rem;
   text-align: center;
   font-family: 'Fascinate Inline';
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 0.625rem;
   color: #000;
-  min-width: 100%;
+  width: 95%;
   height: auto;
    opacity: 0.7;
+   line-height: 2.4rem;
+
 }
 
 .practice-question-count {
@@ -31,17 +34,20 @@
 .practice-question-text {
   margin-bottom: 0.625rem;
   color: #000;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 
 .practice-answer-status {
   margin-bottom: 0.625rem;
+  line-height: 2.4rem;
 }
 
 .practice-answer-status img {
   width: 20%;
-  height: auto;
+  height: 10%;
+  margin:none;
+  line-height: 2.4rem;
 }
 
 .practice-answer-section {

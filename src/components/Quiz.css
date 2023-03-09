@@ -19,6 +19,7 @@
   color: #000;
   min-width: 100%;
   height: auto;
+  opacity: 0.9;
   
   }
 .question-count {
@@ -62,7 +63,11 @@ max-width: 67.5rem;
 }
 
 .answer-section button:hover {
-  background-color: lightblue;
+  
+  transform: scale(1.2);
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 

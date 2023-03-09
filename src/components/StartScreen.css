@@ -49,6 +49,8 @@ button {
 button:hover {
   transform: scale(1.2);
   background-color: lightsalmon;
+  border: none;
+  outline: none;
 }
 
 
