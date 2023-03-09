@@ -10,7 +10,7 @@
 }
 
 .practice-question-section {
-  background: lightsteelblue;
+  background: lightcoral;
   padding: 0.3125rem;
   border-radius: 2.5rem;
   text-align: center;
@@ -109,20 +109,21 @@
 
 .practice-navigation-section button,
 .practice-navigation-section a {
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  text-align: center;
+  padding: 0%;
+width: 9rem;
+height: 3rem;
+font-size: 2rem;
+font-family: 'Fascinate Inline';
+border-radius: 0.5rem;
+cursor: pointer;
+border: none;
+outline: none;
+text-align: center;
 }
 
 .practice-navigation-section button[disabled],
 .practice-navigation-section a[disabled] {
-  opacity: 0.5;
-  cursor: not-allowed;
+opacity: 0.5;
+cursor: not-allowed;
 }
-
 
