@@ -21,6 +21,21 @@
   animation: animatedBackground 5s linear infinite;
   animation-fill-mode: forwards;
 }
+
+
+.practice-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./images/b3.GIF');
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: animatedBackground 5s linear infinite;
+  animation-fill-mode: forwards;
+}
 @keyframes animatedBackground {
   0% {
     background-position: 0 0;

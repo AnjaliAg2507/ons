@@ -12,7 +12,7 @@ function StartScreen() {
       <h1>Government of Karnataka</h1>
       <p>A fun way to learn maths!</p>
       <div className="button-container">
-        <button>Practice</button> 
+        <Link to="/Practice"> <button>Practice</button></Link>
         <Link to="/Quiz"><button>Start Quiz</button> </Link>
       </div>
     </div>
