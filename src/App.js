@@ -25,12 +25,8 @@ function App() {
           <div className="practice-background">
             <Practice />
           </div>
-        </Route>
-        <Route exact path="/score">
-          <div className="score-background">
-            <Score />
-          </div>
-      </Route>
+          </Route>
+        
       </Switch>
     </div>
   );
